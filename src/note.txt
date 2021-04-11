@@ -1,0 +1,7 @@
+-src    
+    - component: chứa dump components, các components dùng để sử dung bên trong các component khác, thông thường chỉ nhận props và render UI , ít sử lý logic, Ex: Button, card, .. 
+    -pages:  Chứa các component cấu thành 1 page, có các xử lý logic bên trong những component này, như gọi API, 
+    -Hooks: Chứa các custom hooks, useRequest, useABC 
+    -services: Nới setup API 
+    - style: Nơi chứ css/scss
+        + Sử dụng scss
